@@ -7,16 +7,19 @@
   --primaryColor: #A23D48;
 }
 
-section, footer{
-  padding: 0 80px;
+section,
+footer {
+  padding: 0 60px;
 }
 
 @media (max-width:768px) {
+
   section,
-    footer {
-      padding: 0 30px;
-    }
+  footer {
+    padding: 0 30px;
+  }
 }
+
 .gradient {
   background: rgb(250, 60, 58);
   background: radial-gradient(circle, rgba(250, 60, 58, 1) 0%, rgba(255, 255, 255, 1) 100%);
@@ -36,7 +39,6 @@ section, footer{
   cursor: pointer;
 
 }
-
 
 .button:hover::before {
   transform: scaleX(1);

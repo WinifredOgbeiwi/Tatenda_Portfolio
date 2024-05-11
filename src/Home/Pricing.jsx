@@ -1,15 +1,19 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { pricing } from '../data'
 import Button from '../utils/Button'
-
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 const Pricing = () => {
+    useEffect(() => {
+        Aos.init({ duration: 2000 })
+    }, [])
     return (
         <section id='pricing' className=' pt-20'>
             <div className='w-[80%] m-auto mb-10'>
-                <h2 className=' text-5xl font-bold text-center '>Pricing Package</h2>
-                <p className='mt-5 mb-6 text-center '>My pricing packages are tailored to your specific project requirements. Whether its a one-time project or ongoing collaboration, my flexible pricing models provide value and efficiency</p>
+                <h2 className=' text-5xl font-bold text-center ' data-aos='fade-left'>Pricing Package</h2>
+                <p className='mt-5 mb-6 text-center ' data-aos='fade-right'>My pricing packages are tailored to your specific project requirements. Whether its a one-time project or ongoing collaboration, my flexible pricing models provide value and efficiency</p>
 
-                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5" data-aos='fade-up'>
                     {pricing.map(({ id, title, description, price }, index) => (
                         <div key={id} className={`flex flex-col justify-center items-center text-center  py-12 ${index === 1 ? "bg-[#FA3C3A]" : "bg-[#fcdcdb]"}`}>
                             <h3 className={`md:w-1/2 font-bold text-3xl leading-10 ${index===1?"text-white" : ""}`}>{title}</h3>

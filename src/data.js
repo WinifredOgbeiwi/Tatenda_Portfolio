@@ -56,7 +56,7 @@ const experience = [
   },
   {
     id: 2,
-    date: "2022 - 2023 Sodtware Tester",
+    date: "2022 - 2023 Software Tester",
     title: "Testronic Labs Poland",
     description:
       "Tested video games to reveal visual defects in order to improve the game visually",
@@ -139,7 +139,7 @@ const pricing = [
     price: "$79.99",
   },
   {
-    id: 1,
+    id: 3,
     title: "Expert Package",
     description: "For Big Projects",
     price: "$99.99",

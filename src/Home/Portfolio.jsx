@@ -1,12 +1,16 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { experience } from '../data'
-
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 const Portfolio = () => {
+    useEffect(() => {
+        Aos.init({ duration: 2000 })
+    }, [])
     return (
         <section id='projects' className=' pt-20'>
             <div className='flex flex-col md:flex-row items-center mb-20'>
-                <h2 className=' md:w-1/2 text-5xl font-bold'>Expertise in 3D Modeling Texturing and Software Proficiency</h2>
-                <p className='md:w-1/2 mt-5 md:mt-0'>My expereince in 3D modeling, texturing and software proficiency has honed my skills to create photorealistic, captivating 3D models.
+                <h2 className=' md:w-1/2 text-5xl font-bold' data-aos='fade-right'>Expertise in 3D Modeling Texturing and Software Proficiency</h2>
+                <p className='md:w-1/2 mt-5 md:mt-0' data-aos='fade-left'>My expereince in 3D modeling, texturing and software proficiency has honed my skills to create photorealistic, captivating 3D models.
                     I am proficient in industry-standard software like Blender, which enables me to produce high-quality models that look and feel realistic
                 </p>
             </div>
@@ -14,7 +18,7 @@ const Portfolio = () => {
 
 
 
-            <div className='grid md:grid-cols-3 gap-8'>
+            <div className='grid md:grid-cols-3 gap-8' data-aos='fade-up'>
                 {
                     experience.map(({ id, date, title, description }) => (
                         <div key={id} className=' bg-[#fcdcdb] px-6 pt-6 pb-20'>

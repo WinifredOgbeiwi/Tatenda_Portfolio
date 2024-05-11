@@ -1,9 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { image } from '../data'
 import Button from '../utils/Button'
 import { FaCheck } from "react-icons/fa6";
-
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 const CallToAction = () => {
+    useEffect(() => {
+        Aos.init({ duration: 2000 })
+    }, [])
     return (
         <section className='pt-20'>
             <div className='flex flex-col md:flex-row items-center mb-20 justify-between'>

@@ -1,5 +1,5 @@
 
-import React, { useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -11,8 +11,13 @@ import 'swiper/css/navigation';
 // import required modules
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import { image } from '../data';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 const Projects = () => {
-
+  useEffect(() => {
+    Aos.init({ duration: 2000 })
+  }, [])
+  
   return (
     <section className='pt-20'>
       <div className='w-[80%] m-auto mb-10'>
