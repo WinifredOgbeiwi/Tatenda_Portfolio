@@ -16,7 +16,7 @@ const About = () => {
                 <img src={image.Person2} alt="" data-aos='fade-right' />
                 <div className='md:w-1/2 mt-10 md:mt-0' data-aos='fade-left'>
                     <h2 className='text-[40px] leading-10 font-bold'>Elevating Your <br />Products Through <br />Realistic 3D Models</h2>
-                    <p className='mt-5 mb-6'>I specialize in creating stunning visuals that showcase prodycts in their best light. My mission is to elevate your products through creative and engaging 3D solutions that exceed your expectation</p>
+                    <p className='mt-5 mb-6'>I am Tatenda Carl Sakarombe. I specialize in creating stunning visuals that showcase prodycts in their best light. My mission is to elevate your products through creative and engaging 3D solutions that exceed your expectation</p>
                     <h4 className="text-[#FA3C3A] font-semibold mt-10 mb-3 text-xl hover:underline cursor-pointer" onClick={() => setShowText({ ...showText, vision: !showText.vision })}>My Vision</h4>
 
                     {

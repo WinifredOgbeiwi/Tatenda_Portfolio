@@ -49,22 +49,25 @@ const navbar = [
 const experience = [
   {
     id: 1,
-    date: "2022 - Present Freelance",
-    title: "Freelance Projects",
+    date: "2022 - Present ",
+    title: "Freelance",
+    place: "Freelance Projects",
     description:
       "Collabprated with clients to create customised 3D models that meet their specific needs",
   },
   {
     id: 2,
-    date: "2022 - 2023 Software Tester",
-    title: "Testronic Labs Poland",
+    date: "2022 - 2023 ",
+    title: "Software Tester",
+    place: "Testronic Labs Poland",
     description:
       "Tested video games to reveal visual defects in order to improve the game visually",
   },
   {
     id: 3,
-    date: "2023 - Present Software Tester",
-    title: "Lionbridge Poland",
+    date: "2023 - Present ",
+    title: "Software Tester",
+    place: "Lionbridge Poland",
     description:
       "Tested video games to reveal functional and visual defects in order to improve the game visually",
   },

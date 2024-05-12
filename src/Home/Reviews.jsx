@@ -9,9 +9,9 @@ const Reviews = () => {
     }, [])
   return (
       <section className="bg-[#fcdcdb] py-20">
-      <div className="flex flex-col md:flex-row items-center mb-20">
-              <h2 className=" md:w-1/2 text-5xl font-bold" data-aos='fade-right'>Client Testimonials</h2>
-              <p className="md:w-1/2 mt-5 md:mt-0" data-aos='fade-left'>
+      <div className="w-[80%] m-auto mb-10">
+        <h2 className=" text-5xl font-bold text-center " data-aos='fade-right'>Client Testimonials</h2>
+        <p className="mt-5 mb-6 text-center " data-aos='fade-left'>
           Tatenda's 3D models are turly exceptional. His attention to detail and
           realistic texture make his work stand out from the crowd
         </p>

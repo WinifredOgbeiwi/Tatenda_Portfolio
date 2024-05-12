@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import Navbar from './Home/Navbar'
 import Hero from './Home/Hero'
 import About from './Home/About'
@@ -7,9 +7,9 @@ import Partner from './Home/Partner'
 import Projects from './Home/Projects'
 import CallToAction from './Home/CallToAction'
 import Reviews from './Home/Reviews'
-import Pricing from './Home/Pricing'
 import CallToAction2 from './Home/CallToAction2'
 import Footer from './Home/Footer'
+import Contact from './Home/Contact'
 
 
 function App() {
@@ -26,7 +26,7 @@ function App() {
       <Projects />
       <CallToAction />
       <Reviews />
-      <Pricing />
+      <Contact/>
       <CallToAction2 />
       <Footer />
     </>

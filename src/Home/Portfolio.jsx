@@ -8,9 +8,9 @@ const Portfolio = () => {
     }, [])
     return (
         <section id='projects' className=' pt-20'>
-            <div className='flex flex-col md:flex-row items-center mb-20'>
-                <h2 className=' md:w-1/2 text-5xl font-bold' data-aos='fade-right'>Expertise in 3D Modeling Texturing and Software Proficiency</h2>
-                <p className='md:w-1/2 mt-5 md:mt-0' data-aos='fade-left'>My expereince in 3D modeling, texturing and software proficiency has honed my skills to create photorealistic, captivating 3D models.
+            <div className='w-[80%] m-auto mb-10'>
+                <h2 className=' text-5xl font-bold text-center' data-aos='fade-right '>Expertise in 3D Modeling Texturing and Software Proficiency</h2>
+                <p className='mt-5 mb-6 text-center ' data-aos='fade-left'>My expereince in 3D modeling, texturing and software proficiency has honed my skills to create photorealistic, captivating 3D models.
                     I am proficient in industry-standard software like Blender, which enables me to produce high-quality models that look and feel realistic
                 </p>
             </div>
@@ -20,12 +20,12 @@ const Portfolio = () => {
 
             <div className='grid md:grid-cols-3 gap-8' data-aos='fade-up'>
                 {
-                    experience.map(({ id, date, title, description }) => (
+                    experience.map(({ id, date, title, description,place }) => (
                         <div key={id} className=' bg-[#fcdcdb] px-6 pt-6 pb-20'>
-                            <p className='text-[#FA3C3A] font-semibold mt-4'>{date}</p>
-                            <h4 className=' font-bold text-2xl my-4'>{title}</h4>
+                            <p className='text-[#FA3C3A] font-semibold mt-4'>{date}<br/>{title}</p>
+                            <h4 className=' font-bold text-2xl my-4'>{place}</h4>
                             <p>{description}</p>
-                            <p className=' font-semibold mt-4 underline' >Read More</p>
+                           
                         </div>
                     ))
                 }

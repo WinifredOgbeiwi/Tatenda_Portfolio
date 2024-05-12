@@ -6,7 +6,9 @@
   --mainColor: #FA3C3A;
   --primaryColor: #A23D48;
 }
-
+body{
+  overflow-x: hidden;
+}
 section,
 footer {
   padding: 0 60px;
@@ -73,6 +75,9 @@ footer {
   height: 2.5rem;
 }
 
+.contact_button {
+  width: 100%;
+}
 .nav_button_full {
   background: var(--mainColor);
   color: white;
