@@ -4,7 +4,7 @@ import Button from '../utils/Button'
 const Contact = () => {
     return (
         <section
-            name='contact' data-aos='fade-down'
+            id='contact' data-aos='fade-down'
             className='mt-20 mb-10'>
             <div className='w-[80%] m-auto mb-10'>
                 <h2 className=' text-center text-5xl font-bold '>Contact</h2>
