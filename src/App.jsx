@@ -16,7 +16,7 @@ function App() {
 
   return (
     <>
-      <div className='gradient'>
+      <div className='gradient h-screen'>
         <Navbar />
         <Hero />
       </div>
