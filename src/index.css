@@ -16,7 +16,7 @@ body {
   overflow-x: hidden;
 }
 
-section,
+section,main,
 footer {
   padding: 0 60px;
 }
@@ -28,17 +28,63 @@ footer {
     padding: 0 30px;
   }
 }
-
+.hover:hover{
+    transform: scale(1.4, 1.4);
+}
 .gradient {
   background: rgb(250, 60, 58);
   background: radial-gradient(circle, rgba(250, 60, 58, 1) 0%, rgba(255, 255, 255, 1) 100%);
 }
-
+.secondDiv {
+  border: 2px solid var(--mainColor);
+  background-color: rgb(255, 255, 255);
+  box-shadow: 10px 10px var(--mainColor)
+}
 .about_section {
   background: rgb(250, 60, 58);
   background: linear-gradient(90deg, rgba(250, 60, 58, 1) 0%, rgba(254, 228, 228, 1) 36%, rgba(255, 255, 255, 1) 60%);
 }
+.text3d {
+  color: #f5f5f5;
+  text-shadow: 1px 1px 1px #919191,
+    1px 2px 1px #919191,
+    1px 3px 1px #919191,
+    1px 4px 1px #919191,
+    1px 5px 1px #919191,
+    1px 6px 1px #919191,
+    1px 7px 1px #919191,
+    1px 8px 1px #919191,
+    1px 9px 1px #919191,
+    1px 10px 1px #919191,
+    1px 18px 6px rgba(16, 16, 16, 0.4),
+    1px 22px 10px rgba(16, 16, 16, 0.2),
+    1px 25px 35px rgba(16, 16, 16, 0.2),
+    1px 30px 60px rgba(16, 16, 16, 0.4);
+}
+.beating-text {
+  transform: scale(1, 1);
+  animation-name: beating_text;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
 
+@keyframes beating_text {
+  0% {
+    transform: scale(1.1, 1.1);
+  }
+
+  25% {
+    transform: scale(1, 1);
+  }
+
+  50% {
+    transform: scale(1.1, 1.1);
+  }
+
+  100% {
+    transform: scale(1, 1);
+  }
+}
 /*  */
 .button {
   border-radius: 3px;

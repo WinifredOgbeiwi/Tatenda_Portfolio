@@ -25,13 +25,13 @@ const Navbar = () => {
     return (
         <header className='mb-7 md:mb-0'>
             <nav className='flex relative flex-row justify-between items-center px-12 py-5  bg-white md:bg-inherit' >
-                <img src={image.Logo} alt="logo" className='w-16' data-aos='fade-right' />
+                <a href=""><img src={image.Logo} alt="logo" className='w-16' data-aos='fade-right' /></a>
                 {windowWidth > MOBILE_WINDOW_SIZE && (
                     <>
                         <ul className='flex flex-row justify-between items-center space-x-10' data-aos='fade-down'>
                             {navbar.map((items) => (
                                 <a key={items.id} href={items.link} className='font-bold'>
-                                    <li>{items.title}</li>
+                                    <li className='hover'>{items.title}</li>
                                 </a>
                             ))}
                         </ul>
@@ -52,7 +52,7 @@ const Navbar = () => {
                     <ul className='flex flex-row justify-center space-x-10 pb-2'>
                         {navbar.map((items) => (
                             <a key={items.id} href={items.link} className='font-bold'>
-                                <li>{items.title}</li>
+                                <li className='hover'>{items.title}</li>
                             </a>
                         ))}
                     </ul>

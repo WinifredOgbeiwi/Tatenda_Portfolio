@@ -12,7 +12,8 @@ import Project8 from "./assets/images/project8.png";
 import Project9 from "./assets/images/project9.png";
 import Project10 from "./assets/images/project10.png";
 import Review_Img1 from "./assets/images/review-img.webp"
-
+import PersonPic from "./assets/images/personalpic.png"
+import ScrollDown from "./assets/images/scroll_down.png";
 const image = {
   Logo,
   Person,
@@ -27,7 +28,9 @@ const image = {
   Project8,
   Project9,
   Project10,
-  Review_Img1
+  Review_Img1,
+  PersonPic,
+  ScrollDown
 };
 const navbar = [
   {

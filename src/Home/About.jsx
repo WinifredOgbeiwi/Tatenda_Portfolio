@@ -13,7 +13,22 @@ const About = () => {
     return (
         <section id='about' className=' pt-20'>
             <div className=' flex flex-col md:flex-row justify-center items-center md:justify-between'>
-                <img src={image.Person2} alt="" data-aos='fade-right' />
+                <div className="">
+                    <div className=" p-1 sm:p-5   ">
+                        <div className="secondDiv rounded overflow-hidden w-full object-cover ">
+                            <img src={image.PersonPic} alt="my_picture" data-aos='fade-right' className="w-full" />
+                           
+                        </div>
+                    </div>
+                </div>
+
+
+              
+
+
+
+
+
                 <div className='md:w-1/2 mt-10 md:mt-0' data-aos='fade-left'>
                     <h2 className='text-[40px] leading-10 font-bold'>Elevating Your <br />Products Through <br />Realistic 3D Models</h2>
                     <p className='mt-5 mb-6'>I am Tatenda Carl Sakarombe. I specialize in creating stunning visuals that showcase prodycts in their best light. My mission is to elevate your products through creative and engaging 3D solutions that exceed your expectation</p>
