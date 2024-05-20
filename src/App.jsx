@@ -15,7 +15,7 @@ import Contact from './Home/Contact'
 function App() {
 
   return (
-    <>
+    <div className=' m-auto max-w-[1440px] overflow-hidden '>
       <div className='gradient h-screen'>
         <Navbar />
         <Hero />
@@ -29,7 +29,7 @@ function App() {
       <Contact/>
       <CallToAction2 />
       <Footer />
-    </>
+    </div>
   )
 }
 
