@@ -11,7 +11,7 @@ const Portfolio = () => {
             <div className='w-[80%] m-auto mb-10'>
                 <h2 className=' text-5xl font-bold text-center' data-aos='fade-right '>Expertise in 3D Modeling Texturing and Software Proficiency</h2>
                 <p className='mt-5 mb-6 text-center ' data-aos='fade-left'>My expereince in 3D modeling, texturing and software proficiency has honed my skills to create photorealistic, captivating 3D models.
-                    I am proficient in industry-standard software like Blender, which enables me to produce high-quality models that look and feel realistic
+                    I am proficient in industry-standard software like Blender, which enables me to produce high-quality models that look and feel realistic.
                 </p>
             </div>
 

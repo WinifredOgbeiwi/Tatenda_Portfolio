@@ -11,7 +11,7 @@ const Partner = () => {
     <section className='bg-[#fcdcdb] py-20'>
       <div className='w-[80%] m-auto mb-10'>
         <h2 className=' text-5xl font-bold text-center '>Your 3D Modeling Partner</h2>
-        <p className='mt-5 mb-6 text-center '>As a 3D artist, I excel in creating photorealistic 3D models that accurately represent products and concepts. My experience in 3D modeling, texture and software proficiency, combined with my passion for creativity, enables me to elevate your product and bring your ideas to life </p>
+        <p className='mt-5 mb-6 text-center '>As a 3D artist, I excel in creating photorealistic 3D models that accurately represent products and concepts. My experience in 3D modeling, texture and software proficiency, combined with my passion for creativity, enables me to elevate your product and bring your ideas to life. </p>
       </div>
 
       <div>

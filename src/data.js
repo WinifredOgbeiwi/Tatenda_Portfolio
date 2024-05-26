@@ -56,7 +56,7 @@ const experience = [
     title: "Freelance",
     place: "Freelance Projects",
     description:
-      "Collabprated with clients to create customised 3D models that meet their specific needs",
+      "Collaborated with clients to create customised 3D models that meet their specific needs",
   },
   {
     id: 2,

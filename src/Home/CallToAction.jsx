@@ -18,7 +18,7 @@ const CallToAction = () => {
                         <h2 className=' text-5xl font-bold text-center mb-6'>Let's Work Together</h2>
                         <p className='my-5'>If you're interested in working together or have any question, feel free to reach out. I'm always open to a conversation to help clarify your needs and explore how my skills can bring your ideas to life</p>
                         <div ><FaCheck className='inline mr-3' />Get insights into the latest design trends and techniques</div>
-                        <div className='my-2'><FaCheck className='inline mr-3' />Uderstand how my skills can complement your vision</div>
+                        <div className='my-2'><FaCheck className='inline mr-3' />Understand how my skills can complement your vision</div>
                         <div><FaCheck className='inline mr-3' />Explore customised design options for your needs</div>
                     </div>
                     <div className='flex justify-center mt-10'>

@@ -13,7 +13,7 @@ const Reviews = () => {
         <h2 className=" text-5xl font-bold text-center " data-aos='fade-right'>Client Testimonials</h2>
         <p className="mt-5 mb-6 text-center " data-aos='fade-left'>
           Tatenda's 3D models are turly exceptional. His attention to detail and
-          realistic texture make his work stand out from the crowd
+          realistic texture make his work stand out from the crowd.
         </p>
       </div>
 
